@@ -1,0 +1,122 @@
+/* Main Checkout Page */
+.checkout-page {
+    max-width: 1100px;
+    margin: 50px auto;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+}
+
+/* Page Heading */
+.checkout-page h1 {
+    text-align: center;
+    color: #85451f;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+/* Checkout Form */
+.checkout-page form {
+    background-color: #faf1e8;
+    padding: 35px;
+    border-radius: 15px;
+    border: 1px solid #ead3bd;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+/* Section Headings */
+.checkout-page h2 {
+    color: #85451f;
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+/* Input Fields */
+.checkout-page input,
+.checkout-page textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    box-sizing: border-box;
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+/* Input Focus */
+.checkout-page input:focus,
+.checkout-page textarea:focus {
+    border-color: #85451f;
+    box-shadow: 0 0 5px rgba(133, 69, 31, 0.2);
+}
+
+/* Address Field */
+.checkout-page textarea {
+    height: 110px;
+    resize: vertical;
+}
+
+/* Order Items */
+.checkout-page form div {
+    background-color: #fff;
+    padding: 12px 18px;
+    border-radius: 8px;
+    border: 1px solid #ead3bd;
+}
+
+.checkout-page form div p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+/* Total Price */
+.checkout-page form h2:last-of-type {
+    color: #222;
+    border-top: 1px solid #d6b99f;
+    padding-top: 20px;
+}
+
+/* Place Order Button */
+.checkout-page button {
+    width: 100%;
+    padding: 16px;
+    background-color: #85451f;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Button Hover */
+.checkout-page button:hover {
+    background-color: #603016;
+    transform: translateY(-2px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+
+    .checkout-page {
+        margin: 20px;
+        padding: 10px;
+    }
+
+    .checkout-page h1 {
+        font-size: 28px;
+    }
+
+    .checkout-page form {
+        padding: 20px;
+    }
+
+    .checkout-page h2 {
+        font-size: 21px;
+    }
+
+}
